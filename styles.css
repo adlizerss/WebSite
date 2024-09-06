@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ffffff, #cfc8ff);
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: white;
+  }
+  
+  .logo h1 {
+    color: #5e57ff;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-decoration-color: #5e57ff;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #ffde44;
+    color: black;
+  }
+  
+  nav ul li a.active {
+    background-color: #ffde44;
+    color: black;
+  }
+  
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .content {
+    max-width: 500px;
+  }
+  
+  .content h2 {
+    color: #000;
+    font-size: 28px;
+  }
+  
+  .content h3 {
+    color: #000;
+    font-size: 36px;
+    margin: 10px 0;
+  }
+  
+  .content h3 span {
+    color: #5e57ff;
+  }
+  
+  .content p {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn {
+    background-color: #5e57ff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn.login {
+    background-color: white;
+    color: #5e57ff;
+    border: 2px solid #5e57ff;
+  }
+  
+  .images {
+    position: relative;
+  }
+  
+  .images img {
+    position: absolute;
+    max-width: 700px;
+  }
+  
+  .images img:nth-child(1) {
+    right: 50px;
+    top: 0;
+  }
+  
+  .images img:nth-child(2) {
+    left: 10px;
+    bottom: 50px;
+  }
+  
+  .images img:nth-child(3) {
+    right: 80px;
+    bottom: 10px;
+  }
+  
+  .images img:nth-child(4) {
+    top: 100px;
+    left: 30px;
+  }
+  
+  .images img:nth-child(5) {
+    right: 100px;
+    top: 150px;
+  }
+  

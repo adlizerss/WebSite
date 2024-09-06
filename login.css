@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ffffff, #cfc8ff);
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: white;
+  }
+  
+  .logo h1 {
+    color: #5e57ff;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-decoration-color: #5e57ff;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #ffde44;
+    color: black;
+  }
+  
+  nav ul li a.active {
+    background-color: #ffde44;
+    color: black;
+  }
+  
+  .login-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .form-container {
+    background-color: #5e57ff;
+    padding: 30px;
+    border-radius: 20px;
+    width: 300px;
+    color: white;
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .form-container label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 16px;
+  }
+  
+  .form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #c8bfff;
+    color: #000;
+  }
+  
+  .form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    color: #5e57ff;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #d8d0ff;
+  }
+  
+  .back-link {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .back-link:hover {
+    text-decoration: underline;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .image-container img {
+    position: absolute;
+    width: 150px;
+  }
+  
+  .image-container img:nth-child(1) {
+    top: 0;
+    right: 100px;
+  }
+  
+  .image-container img:nth-child(2) {
+    bottom: 50px;
+    left: 10px;
+  }
+  
+  .image-container img:nth-child(3) {
+    bottom: 10px;
+    right: 100px;
+  }
+  
